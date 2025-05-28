@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: Executar testes com Jest
-        run: npm test -- --coverage
+        run: npm run test
 
       # Opcional: Enviar relatório de cobertura para o Codecov
       # - name: Upload para Codecov
